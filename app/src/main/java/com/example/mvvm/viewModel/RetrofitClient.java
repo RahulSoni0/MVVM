@@ -1,8 +1,11 @@
-package com.example.mvvm;
+package com.example.mvvm.viewModel;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.mvvm.model.Apiinterface;
+import com.example.mvvm.model.postmodel;
 
 import java.util.List;
 

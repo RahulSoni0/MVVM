@@ -1,4 +1,4 @@
-package com.example.mvvm;
+package com.example.mvvm.model;
 
 import java.util.List;
 

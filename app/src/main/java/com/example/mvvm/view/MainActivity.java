@@ -1,27 +1,20 @@
-package com.example.mvvm;
-
-import static android.content.ContentValues.TAG;
+package com.example.mvvm.view;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
 
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.example.mvvm.R;
+import com.example.mvvm.model.postmodel;
+import com.example.mvvm.viewModel.RetrofitClient;
 
 import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     List<postmodel> heroList;
